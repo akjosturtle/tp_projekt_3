@@ -615,3 +615,8 @@
 65937	66433	7048991950437496	C:/Users/LENOVO/OneDrive/Dokumenty/GitHub/tp_projekt_3/build/SDL/include/SDL_log.h	c604698a1089f499
 162876	169286	7048992979559842	SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.obj	ba011e1798fa0562
 162860	168776	7048992974089216	SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj	d134fc154e26b1be
+79	4024	7064858266547030	CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj	cd5e25cc62d425f0
+4025	14862	7064858374897105	planar_quadrotor.exe	c8058f9ba555ab60
+222	9983	7064859227882418	CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj	cd5e25cc62d425f0
+66	4000	7064859581046937	CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj	cd5e25cc62d425f0
+4001	15082	7064859691828765	planar_quadrotor.exe	c8058f9ba555ab60
