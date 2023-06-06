@@ -3,6 +3,10 @@
 */
 #include "simulate.h"
 
+// #include <matplot/matplot.h>
+// #include <thread>
+// #include <VSSynth/VSSynth.h>
+
 Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
     /* Calculate LQR gain matrix */
     Eigen::MatrixXf Eye = Eigen::MatrixXf::Identity(6, 6);
@@ -40,7 +44,7 @@ int main(int argc, char* args[])
 
     /**
      * TODO: Extend simulation
-     * 1. Set goal state of the mouse when clicking left mouse button (transform the coordinates to the quadrotor world! see visualizer TODO list)
+     * +1. Set goal state of the mouse when clicking left mouse button (transform the coordinates to the quadrotor world! see visualizer TODO list)
      *    [x, y, 0, 0, 0, 0]
      * 2. Update PlanarQuadrotor from simulation when goal is changed
     */
@@ -95,7 +99,11 @@ int main(int argc, char* args[])
                     goal_state << x, y, 0, 0, 0, 0;
                     quadrotor.SetGoal(goal_state);
                 }
-                
+                // else if ( e.type == ) // show plot
+                // {
+                //     auto l_1 = plot3(st, ct, t);
+                //     show();
+                // }
             }
 
             SDL_Delay((int) dt * 1000);
